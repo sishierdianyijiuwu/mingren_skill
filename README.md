@@ -17,7 +17,6 @@
 - [已发布的 Skill](#已发布的-skill)
 - [快速开始](#快速开始)
 - [设计理念](#设计理念)
-- [制作流程（女娲 · Nuwa）](#制作流程女娲--nuwa)
 - [Roadmap](#roadmap)
 - [项目结构](#项目结构)
 - [贡献指南](#贡献指南)
@@ -127,40 +126,6 @@ Claude 会切换两副镜片各回一段，最后做差异综合。这是这套 
 
 ---
 
-## 制作流程（女娲 · Nuwa）
-
-每个人物 skill 都按 [女娲 · Skill 造人术](https://github.com/alchaincyf/nuwa-skill) 的标准流程蒸馏，5 个阶段、3 个用户检查点：
-
-```
-Phase 0    需求澄清（聚焦方向 / 用途 / 是否有本地一手语料）
-   ↓
-Phase 1    6 个 Agent 并行调研（著作 / 长对话 / 表达 DNA / 他者视角 / 决策 / 时间线）
-   ↓
-Phase 1.5  ⛳ 调研质量 Review 检查点（来源数 / 一手占比 / 矛盾点 / 信息缺口）
-   ↓
-Phase 2    框架提炼（心智模型三重验证 / 决策启发式 / 表达 DNA / 张力 / 智识谱系）
-   ↓
-Phase 2.5  ⛳ 提炼确认检查点
-   ↓
-Phase 3    构建 SKILL.md（Agentic Protocol + 心智模型 + 启发式 + 表达 DNA）
-   ↓
-Phase 4    质量验证（已知立场对比 / 边缘问题推断 / 风格测试）
-   ↓
-Phase 5    双 Agent 精炼（结构优化 + 内容质量）
-   ↓
-⛳ 最终确认 → 交付
-```
-
-**心智模型的三重验证**（用于筛选"真信念" vs "随口一说"）：
-
-1. **跨域复现**：同一思维框架在此人讨论的 ≥ 2 个不同领域出现
-2. **生成力**：用这个模型可以推断此人对**新问题**的可能立场
-3. **排他性**：不是所有聪明人都这样想，体现此人独特视角
-
-只有三重通过的才能进入 Skill 的「核心心智模型」段，仅通过 1-2 重的降级为决策启发式，0 重的丢弃。
-
----
-
 ## Roadmap
 
 下一批计划蒸馏的人物（按优先级）：
@@ -218,13 +183,6 @@ Phase 5    双 Agent 精炼（结构优化 + 内容质量）
 - **优化表达 DNA**：发现新句式 / 自嘲模板 / 高频词
 - **修复局限说明**：心智模型的「局限」部分写得不充分
 
-### 提交新人物 Skill
-- 完整走一遍 [女娲 · Nuwa 流程](https://github.com/alchaincyf/nuwa-skill) 的 5 个 Phase
-- 必须包含 6 维度调研（不能只写 SKILL.md）
-- 心智模型必须通过三重验证
-- 至少 3 对内在张力 + 完整诚实边界
-- 通过 `scripts/quality_check.py` 6/6 自检
-
 ### 不接受的内容
 
 - 涉及当事人**非公开信息**（家庭 / 个人财富细节 / 内部权力博弈匿名爆料）
@@ -261,14 +219,6 @@ chore:  脚本、构建、.gitignore
 ## License
 
 [MIT](LICENSE) © 2026 sishierdianyijiuwu
-
----
-
-## 致谢
-
-- **调研方法论**：[女娲 · Skill 造人术](https://github.com/alchaincyf/nuwa-skill)（[花叔](https://x.com/AlchainHust) 设计）
-- **设计哲学**：Anthropic Skills 框架、Charlie Munger《Poor Charlie's Almanack》多元思维模型
-- **公开素材来源**：详见每个 skill 的 `references/research/` 目录
 
 ---
 
