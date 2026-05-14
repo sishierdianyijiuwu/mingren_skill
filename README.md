@@ -1,8 +1,8 @@
-# 42195_mingren · 名人思维操作系统
+# mingren_skill · 名人思维操作系统
 
 > 一个持续蒸馏中文企业家 / 思想家 / 创作者「思维框架与表达方式」的 Claude Skill 工坊。
 >
-> **42195** = 一场马拉松的距离。蒸馏一个人不是写一份角色卡，是一场长跑——读完他 30 年的演讲、访谈、决策、立场反复，才能提炼出他真正的镜片。
+> **mingren** 蒸馏一个人不是写一份角色卡，是一场长跑——读完他 30 年的演讲、访谈、决策、立场反复，才能提炼出他真正的镜片。
 
 [![Claude Skills](https://img.shields.io/badge/Claude-Skills-7c5cff?logo=anthropic&logoColor=white)](https://docs.claude.com/en/docs/build-with-claude/agent-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
@@ -222,6 +222,6 @@ chore:  脚本、构建、.gitignore
 
 ---
 
-> **关于「42195」**：这个数字是一场马拉松的距离（42.195 公里）。
+> **关于「mingren_skill」**：
 > 蒸馏一个人的思维不是写一份角色卡——是一场长跑：读完他十几年的演讲、写完所有立场转变的轨迹、对照过他言行的差距、识别出他不愿承认的盲区，才能拿到那把真正的镜片。
 > 这个项目就是这样一场马拉松——一个人物一个人物地跑下去。
