@@ -7,7 +7,7 @@
 [![Claude Skills](https://img.shields.io/badge/Claude-Skills-7c5cff?logo=anthropic&logoColor=white)](https://docs.claude.com/en/docs/build-with-claude/agent-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 [![Skills Released](https://img.shields.io/badge/Skills%20Released-3-blue)](#已发布的-skill)
-[![Methodology](https://img.shields.io/badge/Methodology-Nuwa-9333ea)](https://github.com/alchaincyf/nuwa-skill)
+
 
 ---
 
