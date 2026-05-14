@@ -148,7 +148,7 @@ Claude 会切换两副镜片各回一段，最后做差异综合。这是这套 
 ## 项目结构
 
 ```
-42195_mingren/
+mingren_skill/
 ├── README.md                  # 本文件 —— 总览
 ├── .gitignore
 │
