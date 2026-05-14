@@ -6,7 +6,7 @@
 
 [![Claude Skills](https://img.shields.io/badge/Claude-Skills-7c5cff?logo=anthropic&logoColor=white)](https://docs.claude.com/en/docs/build-with-claude/agent-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
-[![Skills Released](https://img.shields.io/badge/Skills%20Released-2-blue)](#已发布的-skill)
+[![Skills Released](https://img.shields.io/badge/Skills%20Released-3-blue)](#已发布的-skill)
 [![Methodology](https://img.shields.io/badge/Methodology-Nuwa-9333ea)](https://github.com/alchaincyf/nuwa-skill)
 
 ---
@@ -52,7 +52,7 @@
 |---|------|---------|---------|---------|------|
 | 01 | **罗永浩**（老罗） | 人格 IP 杠杆 / 反抗式创业者 | 6 个（人格杠杆 · 公共冲突 · 认知大于真相 · 自嘲权威 · 类比驱动 · "最后一次创业"修辞）| 2850 行 / 200+ 来源 | [`01_luoyonghao/`](./01_luoyonghao/) |
 | 02 | **雷军**（小米创始人 / CEO） | 风口型企业家 / 性价比哲学 / 群众路线 | 6 个（顺势而为 · 群众路线 · 互联网七字诀 · 性价比是价值观 · 危机亲自下场 · 错过比失败更可怕）| 3636 行 / 150+ 来源 | [`02_leijun/`](./02_leijun/) |
-| 03 | **孙宇晨**（TRON 创始人）| *（蒸馏中）* | TBD | TBD | [`03_sunyuchen/`](./03_sunyuchen/) |
+| 03 | **孙宇晨**（TRON / 波场创始人）⚠️ 双重定位 | 注意力工程师 / 监管套利大师 / 政治嗅觉天才 | 6 个（注意力即资本 · 多区间监管套利 · 政治嗅觉 · 危机即营销 · 执行 > 想法 · 流量 = 共识 = 市值）| 2924 行 / 150+ 来源 | [`03_sunyuchen/`](./03_sunyuchen/) |
 
 每个 Skill 目录都自带：
 - `SKILL.md`：Claude 可直接激活的 skill 定义
@@ -132,7 +132,6 @@ Claude 会切换两副镜片各回一段，最后做差异综合。这是这套 
 
 | 候选 | 蒸馏方向 | 状态 |
 |------|---------|------|
-| 孙宇晨 | Web3 营销学 / 注意力经济 / 个人 IP 极致运营 | 03_sunyuchen 占位中 |
 | 张一鸣 | 算法驱动决策 / Context 思维 / 反网感美学 | 待启动 |
 | 王兴 | 长期主义 / Amazon 式低毛利高效率 / 「四纵三横」 | 待启动 |
 | 黄峥 | 段永平门生 / 反共识思维 / 多多模式 | 待启动 |
@@ -165,7 +164,11 @@ Claude 会切换两副镜片各回一段，最后做差异综合。这是这套 
 │   ├── references/
 │   └── scripts/
 │
-└── 03_sunyuchen/              # 孙宇晨 skill（蒸馏中）
+└── 03_sunyuchen/              # 孙宇晨 skill ⚠️ 双重定位（思维顾问 + 警示型镜片）
+    ├── SKILL.md
+    ├── README.md
+    ├── references/
+    └── scripts/
 ```
 
 每个子目录都是一个**自包含**的 Claude Skill——可以单独复制到 `~/.claude/skills/` 直接使用，不依赖本仓库其他文件。这是为了开源分发设计的硬性原则。
