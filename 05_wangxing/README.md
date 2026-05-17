@@ -220,7 +220,6 @@ mkdir -p .claude/skills && cp -r ./05_wangxing .claude/skills/wangxing-perspecti
 │                                       6 心智模型 / 8 决策启发式 / 表达 DNA / 时间线 /
 │                                       智识谱系 / 诚实边界 / 关键引用 / 调研附录
 ├── README.md                         # 本文件
-├── DESIGN.md                         # 设计决策说明
 ├── references/
 │   ├── skill-template.md             # nuwa 模板（参考）
 │   ├── extraction-framework.md       # 提炼方法论（三重验证 / 心智模型识别）

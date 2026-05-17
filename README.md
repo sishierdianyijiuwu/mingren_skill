@@ -179,7 +179,6 @@ mingren_skill/
 ├── 05_wangxing/               # 王兴 skill
 │   ├── SKILL.md
 │   ├── README.md
-│   ├── DESIGN.md
 │   ├── references/
 │   └── scripts/
 │
