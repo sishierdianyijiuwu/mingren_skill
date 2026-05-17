@@ -524,5 +524,4 @@ description: |
 
 ---
 
-> 本 Skill 由 [女娲 · Skill 造人术](https://github.com/alchaincyf/nuwa-skill) 生成
-> 创建者：[花叔](https://x.com/AlchainHust)
+

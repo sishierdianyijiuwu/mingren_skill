@@ -512,7 +512,4 @@ description: |
 
 ---
 
-> 本 Skill 由 [女娲 · Skill造人术](https://github.com/alchaincyf/nuwa-skill) 生成
-> 创建者：[花叔](https://x.com/AlchainHust)
-> 调研时间：2026-05-13
-> Skill 路径：/Users/sishierdianyijiuwu/Root/Ws/42195_skill/03_luoyonghao
+

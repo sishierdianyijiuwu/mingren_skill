@@ -6,7 +6,7 @@
 
 [![Claude Skills](https://img.shields.io/badge/Claude-Skills-7c5cff?logo=anthropic&logoColor=white)](https://docs.claude.com/en/docs/build-with-claude/agent-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
-[![Skills Released](https://img.shields.io/badge/Skills%20Released-3-blue)](#已发布的-skill)
+[![Skills Released](https://img.shields.io/badge/Skills%20Released-6-blue)](#已发布的-skill)
 
 
 ---
@@ -53,6 +53,9 @@
 | 01 | **罗永浩**（老罗） | 人格 IP 杠杆 / 反抗式创业者 | 6 个（人格杠杆 · 公共冲突 · 认知大于真相 · 自嘲权威 · 类比驱动 · "最后一次创业"修辞）| 2850 行 / 200+ 来源 | [`01_luoyonghao/`](./01_luoyonghao/) |
 | 02 | **雷军**（小米创始人 / CEO） | 风口型企业家 / 性价比哲学 / 群众路线 | 6 个（顺势而为 · 群众路线 · 互联网七字诀 · 性价比是价值观 · 危机亲自下场 · 错过比失败更可怕）| 3636 行 / 150+ 来源 | [`02_leijun/`](./02_leijun/) |
 | 03 | **孙宇晨**（TRON / 波场创始人）⚠️ 双重定位 | 注意力工程师 / 监管套利大师 / 政治嗅觉天才 | 6 个（注意力即资本 · 多区间监管套利 · 政治嗅觉 · 危机即营销 · 执行 > 想法 · 流量 = 共识 = 市值）| 2924 行 / 150+ 来源 | [`03_sunyuchen/`](./03_sunyuchen/) |
+| 04 | **张一鸣**（字节跳动创始人）⚠️ 双重定位 | 理工男冷静 / 机制设计 / Context not Control | 6 个（延迟满足 · 警惕理性自负 · 平常心做非常事 · Context not Control · 大力出奇迹 · 机制 > 人才）| 2500+ 行 / 60+ 来源 | [`04_zhangyiming/`](./04_zhangyiming/) |
+| 05 | **王兴**（美团创始人 & CEO） | 长期主义 / 现金流偏执 / 无限游戏 | 6 个（边界 vs 核心 · 无限游戏 · 长期有耐心+现金流偏执 · A×B 分解 · 拆词原语 · 苦练基本功+反 Hype）| 2986 行 / 322 来源（一手 62%） | [`05_wangxing/`](./05_wangxing/) |
+| 09 | **张小龙**（微信之父 / Foxmail 作者） | 慢的产品哲学家 / 反 dark pattern | 7 个（用户即朋友 · 合理 > 克制 · 用完即走 · 从人性出发 · 简单即极致 · 去中心化 · 善良比聪明更重要）| 6 场公开课 + 饭否 2359 条（[A] 验证 ~30%） | [`09_zhangxiaolong/`](./09_zhangxiaolong/) |
 
 每个 Skill 目录都自带：
 - `SKILL.md`：Claude 可直接激活的 skill 定义
@@ -132,12 +135,9 @@ Claude 会切换两副镜片各回一段，最后做差异综合。这是这套 
 
 | 候选 | 蒸馏方向 | 状态 |
 |------|---------|------|
-| 张一鸣 | 算法驱动决策 / Context 思维 / 反网感美学 | 待启动 |
-| 王兴 | 长期主义 / Amazon 式低毛利高效率 / 「四纵三横」 | 待启动 |
 | 黄峥 | 段永平门生 / 反共识思维 / 多多模式 | 待启动 |
 | 段永平 | 本分 + 长期主义 / 价值投资中文版 | 待启动 |
 | 任正非 | 灰度哲学 / 自我批判 / "活下去"压力测试 | 待启动 |
-| 张小龙 | 克制美学 / 用户体验第一性原理 | 待启动 |
 | 周鸿祎 | 攻击式营销 / 把冲突当资源 / 360 模式 | 待启动 |
 | 李想 | 战略级 PPT 思维 / 增长闭环 | 待启动 |
 
@@ -164,7 +164,26 @@ mingren_skill/
 │   ├── references/
 │   └── scripts/
 │
-└── 03_sunyuchen/              # 孙宇晨 skill ⚠️ 双重定位（思维顾问 + 警示型镜片）
+├── 03_sunyuchen/              # 孙宇晨 skill ⚠️ 双重定位（思维顾问 + 警示型镜片）
+│   ├── SKILL.md
+│   ├── README.md
+│   ├── references/
+│   └── scripts/
+│
+├── 04_zhangyiming/            # 张一鸣 skill ⚠️ 双重定位（思维顾问 + 警示型镜片）
+│   ├── SKILL.md
+│   ├── README.md
+│   ├── references/
+│   └── scripts/
+│
+├── 05_wangxing/               # 王兴 skill
+│   ├── SKILL.md
+│   ├── README.md
+│   ├── DESIGN.md
+│   ├── references/
+│   └── scripts/
+│
+└── 09_zhangxiaolong/          # 张小龙 skill（[A] 验证 ~30%，详见 README）
     ├── SKILL.md
     ├── README.md
     ├── references/
